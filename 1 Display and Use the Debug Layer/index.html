@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="mydiv"></div>
+<script src=https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js></script>
+<script !src="">
+    scene.debugLayer.show({
+        popup:true,
+        initialTab : 2,
+        parentElement:document.getElementById('#mydiv'),
+        newColors: {
+            backgroundColor: '#eee',
+            backgroundColorLighter: '#fff',
+            backgroundColorLighter2: '#fff',
+            backgroundColorLighter3: '#fff',
+            color: '#333',
+            colorTop:'red',
+            colorBottom:'blue'
+        }
+    });
+</script>
+</body>
+</html>
